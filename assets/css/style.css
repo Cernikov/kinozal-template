@@ -217,6 +217,11 @@ h2::after {
   transition: color 0.2s;
 }
 
+.film-news {
+  position: relative;
+  overflow: hidden;
+}
+
 .left-sidebar .panel:last-of-type {
   margin-bottom: 0;
 }
