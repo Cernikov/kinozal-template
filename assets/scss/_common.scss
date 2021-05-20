@@ -24,9 +24,7 @@ h1 {
 
   font-family: $font-header;
   font-size: 3rem;
-  
-  
-
+ 
   &::after{
     position: absolute;
     width: 100%;
@@ -36,8 +34,33 @@ h1 {
     }
   }
 
+h2{
+  font-family: $font-header;
+  font-size: 2.5em;
+  margin: ($gap *4) 0 ($gap * 3) ($gap * 3);
+
+  &::before{
+    position: absolute;
+    width: 30px;
+    margin: 10px 0 0 -45px;
+    content: "";
+    border-bottom: 3px solid rgba($color-accent, 0.5);
+  }
+  &::after{
+    position: absolute;
+    width: 100%;
+    margin: 34px 0 0 15px;
+    content: "";
+    border-bottom: 3px solid rgba($color-accent, 0.5);
+    }
+  
+}
+
+
+
   h3{
     margin: 0;
     padding: 0;
+    transition: color 0.2s;
   }
 

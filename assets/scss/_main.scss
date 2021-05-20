@@ -10,7 +10,8 @@
   }
 }
 
-.new-films {
+.new-films,
+.top-week {
   position: relative;
   overflow: hidden;
   &-row {
@@ -22,6 +23,22 @@
     padding-left: $gap / 2;
     padding-right: $gap / 2;
     margin-bottom: $gap;
+
+    &_image {
+      width: 100%;
+    }
+
+    &_thumbnail {
+      transition: background-color 0.5s;
+    }
+    &:hover .thumbnail {
+      background-color: $color-accent;
+      border-color: $color-accent;
+      color: $color-light;
+    }
+    &:hover h3 {
+      color: $color-light;
+    }
 
     &_thumbnail {
       margin-bottom: 0;
