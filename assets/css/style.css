@@ -109,6 +109,14 @@ h1 {
   font-size: 1.15em;
 }
 
+.main .site-search {
+  margin-bottom: 45px;
+}
+
+.main .user-login {
+  margin-bottom: 60px;
+}
+
 .left-sidebar .panel:last-of-type {
   margin-bottom: 0;
 }
