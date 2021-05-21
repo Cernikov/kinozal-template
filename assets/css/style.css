@@ -390,6 +390,22 @@ h2::after {
           transform: translateY(-50%);
 }
 
+.footer {
+  background-color: #232323;
+  color: #ffffff;
+  padding-top: 45px;
+}
+
+.footer-item__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-item__link a {
+  color: #dddddd;
+}
+
 @media (min-width: 576px) {
   .header-logo__title {
     margin-right: -0.28em;
