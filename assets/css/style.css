@@ -222,6 +222,43 @@ h2::after {
   overflow: hidden;
 }
 
+.film-news-item a {
+  -webkit-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.film-news-item_thumbnail {
+  -webkit-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.film-news-item .btn {
+  -webkit-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.film-news-item:hover a {
+  color: #df8a13;
+}
+
+.film-news-item:hover .thumbnail {
+  background-color: #df8a13;
+  border-color: #df8a13;
+}
+
+.film-news-item:hover .btn {
+  background-color: #df8a13;
+  border-color: #df8a13;
+}
+
+.film-news-item:focus .btn {
+  background-color: #ec971f;
+  border-color: #985f0d;
+}
+
 .left-sidebar .panel:last-of-type {
   margin-bottom: 0;
 }

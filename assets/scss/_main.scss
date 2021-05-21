@@ -48,18 +48,47 @@
       font-size: 1rem;
       font-weight: 600;
       text-align: center;
-
     }
-    
   }
-  h3{
+  h3 {
     margin: 0;
     padding: 0;
     transition: color 0.2s;
   }
 }
 
-.film-news{
+.film-news {
   position: relative;
   overflow: hidden;
+  &-item {
+    a{
+      transition: color 0.3s;
+    }
+    &_thumbnail{
+      transition:background-color 0.5s;;
+    }
+    .btn{
+      transition:background-color 0.5s;;
+    }
+
+    &:hover a {
+      color: $color-accent;
+    }
+    &:hover .thumbnail {
+      background-color: $color-accent;
+      border-color: $color-accent;
+      
+    }
+    &:hover .btn {
+      background-color: #df8a13;
+      border-color: $color-accent;
+      
+    }
+    &:focus .btn{
+      background-color: #ec971f;
+      border-color: #985f0d;
+    }
+
+
+  }
 }
