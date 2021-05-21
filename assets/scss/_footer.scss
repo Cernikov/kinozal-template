@@ -8,10 +8,18 @@
       list-style: none;
       padding: 0;
       margin: 0;
+      margin-bottom: 10px;
     }
     &__link a{
-      color: $color-gray;
+      color: #777777;
     }
+  }
+  &-bottom{
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    color: $color-light;
+    margin: 20px 0;
   }
   
 }
