@@ -290,6 +290,14 @@ h4 {
   font-size: 0.96rem;
 }
 
+.film-info,
+.film-comments,
+.film-description,
+.film-comments-form {
+  position: relative;
+  overflow: hidden;
+}
+
 .left-sidebar .panel:last-of-type {
   margin-bottom: 0;
 }
