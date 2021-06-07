@@ -358,6 +358,10 @@ h4 {
   background-color: #df8a13;
 }
 
+.site-news-item:hover .site-news-item__title a {
+  color: #df8a13;
+}
+
 .site-news-item__image {
   float: left;
   width: 75px;

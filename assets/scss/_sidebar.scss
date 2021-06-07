@@ -55,9 +55,13 @@ $image-size-with-padding: $image-size + 10;
     }
 
   }
-  &:hover .site-news-item__image{
+  &:hover .site-news-item__image {
     border-color: $color-accent;
     background-color: $color-accent;
+  }
+  &:hover .site-news-item__title a {
+    color: $color-accent;
+    
   }
   
   
